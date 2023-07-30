@@ -1,0 +1,40 @@
+header{color:white ;
+    background-color: black;
+    border-radius: 50px;
+    font-style: oblique;
+    padding: 50px;
+    margin: 0%;
+    font-size: large;
+
+}
+body{
+    border: solid outset;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#a{color: gold
+    
+}
+#b{
+    text-align: right ;
+    
+    width: 60px;
+}
+
+.myimage{
+    background-color: darkgreen;
+}
+
+#c{
+    padding: 20px;
+}
+
+
+
+footer{
+    color: white;
+    background-color: brown;
+    padding: 10px;
+    margin: 0%;
+    border-radius: 10%;
+}

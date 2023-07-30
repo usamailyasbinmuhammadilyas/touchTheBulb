@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+   <header> <h1>welcome to my website <br>
+    </h1></header>
+    <h3 class="a"> Now only touch on the Bulb and see...  </h3>
+    
+
+    <img id="myimage" onclick="changeimage()" src="pic_bulboff.gif" width="100" height="180">
+    <script>
+        function changeimage() {
+            var image= document.getElementById('myimage');
+            if (image.src.match('bulbon.gif')){
+                image.src="pic_bulboff.gif";
+            }
+            else {
+                image.src="bulbon.gif";
+            }
+        }
+    </script>
+   <footer> 
+    
+    <p><h3><em>Web Developer Hafiz Usama Ilyas <img id="b" src="img.png" alt="i"></em></h3></p>
+</footer>
+</body>
+</html>
